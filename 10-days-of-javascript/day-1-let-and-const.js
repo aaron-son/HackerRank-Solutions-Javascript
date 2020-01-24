@@ -24,11 +24,12 @@ function readLine() {
 
 function main() {
     // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
-    
+    const PI = parseFloat(Math.PI);
+    const r = readLine();
     // Print the area of the circle:
-    
+    console.log(parseFloat(PI * Number(r)* Number(r)));
     // Print the perimeter of the circle:
-
+    console.log(parseFloat(Number(2) * PI * Number(r)));
     try {    
         // Attempt to redefine the value of constant variable PI
         PI = 0;
